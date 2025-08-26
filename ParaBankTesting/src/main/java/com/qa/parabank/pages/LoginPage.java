@@ -13,6 +13,5 @@ public class LoginPage {
 		System.out.println(driver.getCurrentUrl());
 		
 		driver.quit();
-	}
-	
+	}	
 }

@@ -1,0 +1,55 @@
+pipeline{
+	
+	agent any
+	
+	stages{
+		
+		stage("build"){
+			
+			steps{
+				echo("Build the project")
+			}
+			
+		}
+		
+		stage("Unit & Integration test"){
+			
+			steps{
+				echo("Unit & Integration test")
+			}
+			
+		}
+		
+		stage("Deploy to DEV"){
+			
+			steps{
+				echo("Deploy to DEV")
+			}
+			
+		}
+		
+		stage("Deploy to QA"){
+			
+			steps{
+				echo("Deploy to QA")
+			}
+			
+		}
+		
+		stage("Deploy to Stagging"){
+			
+			steps{
+				echo("Deploy to Stagging")
+			}
+			
+		}
+		
+		stage("Deploy to Prod"){
+			
+			steps{
+				echo("Deploy to Prod")
+			}
+		
+		}
+	}
+}
