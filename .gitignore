@@ -1,3 +1,7 @@
 .metadata/
-.DS_Store/
-ParaBankTesting/.metadata/
+.DS_Store
+ParaBankTesting/.metadata
+ParaBankTesting/.mvn
+ParaBankTesting/.settings
+ParaBankTesting/.classpath
+ParaBankTesting/.project
